@@ -20,4 +20,5 @@ int main(){
         }
     }
     printf("最大公约数为：%d,  最小公倍数为：%d",max,min);
+    return 0;
 }
