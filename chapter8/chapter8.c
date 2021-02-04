@@ -30,8 +30,9 @@ int main(){
     DisgustNumber(data,sizeof(data)/sizeof(int),3);
     PrintTenNumber(data,sizeof(data)/sizeof(int));*/
     //chapter8-5
-    /*int data[4]={1};
-    printf("%d ",QuitNumberThree(data,4));*/
+    int data[10]={1};
+    printf("%d ",QuitNumberThree(data,10));
+    
     //chapter8-6
     //char str[]="Test";
     //printf("%d",StrLength(str));
@@ -55,7 +56,7 @@ int main(){
         printf("\n");
     }*/
     //chapter8-19
-    char *s=new(10*sizeof(char));
+    /*char *s=new(10*sizeof(char));
     char a[10]="test";
     int i=0;
     while (*(a+i)!='\0')
@@ -66,6 +67,7 @@ int main(){
     printf("new = %s \n",s);
     free(s);
     printf("free = %s",s);
+    */
     return 0;
 }
 //chapter8-1 AND chapter8-2
